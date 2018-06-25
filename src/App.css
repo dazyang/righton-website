@@ -1,0 +1,211 @@
+.App {
+  text-align: left;
+}
+
+.App-logo {
+  /* animation: App-logo-spin infinite 20s linear; */
+  height: 180px;
+}
+
+.App-header {
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+.App-title {
+  font-size: 1.5em;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+header {
+  display: flex;
+}
+
+.logo-branding {
+  margin: auto;
+  width: 780px;
+  padding: auto;
+}
+
+.product-image {
+  width: 520px;
+}
+
+.nav-options {
+  text-align: center;
+  width: 70px;
+  padding: 5px;
+  margin: 10px;
+  border-bottom: 0.5px solid red;
+}
+
+.nav-options:hover {
+  border-bottom: 0.5px solid rgb(255, 255, 255);
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+p {
+  font-size: 0.8em;
+}
+
+h2 {
+  margin-bottom: 15px;
+}
+
+h3 {
+  font-weight: normal;
+}
+
+h4 {
+  /* height: 10px; */
+  /* padding: 15px; */
+}
+
+h5 {
+  height: 20px;
+}
+
+h6 {
+  height: 10px;
+  text-align: center;
+  font-weight: normal;
+}
+
+section {
+  padding: 60px;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.section-intro {
+  width: 450px;
+  margin: 10px 0;
+}
+
+/* Styling Sections */
+.landing {
+  background-color: rgb(44, 40, 133);
+  background-image: url(./images/math-patterns-bk.svg);
+  background-size: cover;
+  color: white;
+}
+
+.problem {
+  background-image: url(./images/sinewave-pattern.svg);
+  background-size: contain;
+}
+
+.product-features {
+  background-color: rgb(44, 40, 133);
+  background-image: url(./images/math-patterns-bk.svg);
+  background-size: cover;
+  color: white;
+}
+
+/* .the-team {
+} */
+
+.product-msg {
+  margin: 20px 50px; 
+  font-size: 1.3em;
+}
+
+.medium-description {
+  font-size: 1em;
+  line-height: 1.2;
+}
+
+.feature-description {
+  margin-top: 20px;
+  text-align: left;
+}
+
+.col-wrapper {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  width: 100%;
+}
+
+.one-col-box {
+  width: 60%;
+}
+
+.three-col-info-box {
+  /* border: 1px solid black; */
+  width: 215px;
+  padding: 5px;
+  margin: 0 10px;
+}
+
+.three-col-title {
+  font-size: 0.9em;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+img {
+  background-position: center;
+  margin: auto;
+}
+
+.profile-photo {
+  margin: 10px;
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  /* border: 1px solid black; */
+}
+
+.feature-images {
+  margin: 10px auto;
+  width: 200px;
+  height: 200px;
+  /* border: 1px solid white; */
+}
+
+footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(44, 40, 133);
+  /* height: 250px; */
+  padding: 20px;
+  text-align: center;
+  color: white;
+}
+
+/* .footer-x {
+  margin-top: -92px;
+} */
+
+button {
+  font-size: 14px;
+  border-radius: 8px;
+  border:1px solid white;
+}
+
+.sign-up {
+  color: white;
+  margin: 10px 0;
+  padding: 0 10px;
+  height: 50px;
+  background-color: rgb(89, 0, 131);
+}
