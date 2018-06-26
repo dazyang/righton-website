@@ -18,7 +18,7 @@ class App extends Component {
           <LandingSection />
           <ProblemSection />
           <ProductFeature />
-          <Team/>
+          <Team />
         </div>
           <Footer />
       </div>

@@ -30,14 +30,14 @@ class Team extends Component {
             <p className='feature-description'><b>Favorite game show:</b><br />
               Who Wants to Be a Millionaire<br /><br />
               <b>Favorite mistake:</b><br />
-              TBD
+              When going to a shoes-off sushi restaurant, avoid holey socks, especially ones where your big toe might stick out.
             </p>
           </div>
           <div className='three-col-info-box'>
             <center><img src={daz} width='80%' className='profile-photo' alt='Daz C. Yang is a UI Designer & Front-End Developer at RightOn! Education.' /></center>
             <h4 className='three-col-title'>Daz C. Yang</h4>
             <h6>UI Designer / Front-End Developer</h6>
-            <p className='feature-description'><b>Favorite game show:</b><br />Press Your Luck -- no whammies!<br /><br /><b>Favorite mistake:</b><br /> When going to a shoes-off sushi restaurant, avoid holey socks, especially ones where your big toe might stick out.
+            <p className='feature-description'><b>Favorite game show:</b><br />Kasou Taishou (A Japanese performance game show)<br /><br /><b>Favorite mistake:</b>TBD<br /> 
             </p>
           </div>
           <div className='three-col-info-box'>
@@ -54,7 +54,7 @@ class Team extends Component {
             <center><img src={sinclair} className='profile-photo' alt='Sinclair Wu is the product lead at RightOn! Education.' /></center>
             <h4 className='three-col-title'>Sinclair Wu</h4>
             <h6>Product Lead</h6>
-            <p className='feature-description'><b>Favorite game show:</b><br /> Press Your Luck -- no whammies!<br /><br /><b>Favorite mistake:</b><br /> When going to a shoes-off sushi restaurant, avoid holey socks, especially ones where your big toe might stick out.
+            <p className='feature-description'><b>Favorite game show:</b><br /> Press Your Luck -- no whammies!<br /><br /><b>Favorite mistake:</b><br /> Didn’t like edamame (Japanese soybeans) the first time I had them at a restaurant in San Francisco, but then realized I was eating out of the discard pile...
             </p>
           </div>
         </div>  
