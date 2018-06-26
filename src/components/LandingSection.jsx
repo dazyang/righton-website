@@ -12,7 +12,7 @@ class LandingSection extends Component {
         <div className="logo-branding">
           <center><img src={righton} alt="logo" width='90%' /></center>
           <div className='product-msg'>
-            <h3>Fun and motivation first – A math game show app for students to learn from and win — even with wrong answers!</h3>
+            <h3>Fun and motivation first – <b><em>RightOn!</em></b> A math game show app for students to learn from, and even win with wrong answers!</h3>
           </div>
         </div>
         <div className='product-image'>
