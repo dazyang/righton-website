@@ -133,7 +133,7 @@ section {
 
 .feature-description {
   margin-top: 20px;
-  text-align: left;
+  text-align: center;
 }
 
 .col-wrapper {
@@ -149,8 +149,8 @@ section {
 
 .three-col-info-box {
   /* border: 1px solid black; */
-  width: 215px;
-  padding: 5px;
+  width: 250px;
+  padding: 10px;
   margin: 0 10px;
 }
 
