@@ -32,7 +32,7 @@ class ProductFeature extends Component {
             <div className='feature-images'>
               <center><img src={progress} width='80%' className="App-logo" alt="Tracking your progress" /></center>
             </div>
-            <h4>Track Individual Progress</h4>
+            <h4>Track Your Progress</h4>
             <p>We’ll help you keep track of what questions you’re good at, and which ones you may want to brush up on. See your own improvement over time!
                 </p>
           </div>
