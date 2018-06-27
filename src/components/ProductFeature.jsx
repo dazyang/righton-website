@@ -11,12 +11,12 @@ class ProductFeature extends Component {
           <img src={x_icon} width='8%' alt='product feature' />
           <h2>Product Features</h2>
         </div>
-        <div className='col-wrapper grid-d-7'>
+        <div className='col-wrapper grid-d-8'>
           <div className='three-col-info-box'>
             <div className='feature-images'>
               <center><img src={x_icon} width='70%' className="App-logo" alt="win-with-mistake" /></center>
             </div>
-            <h4>Have Fun with Wrong Answers</h4>
+            <h4 className='feature-title'>Have Fun with Wrong Answers</h4>
             <p>Yep, that’s right! We show you one or more ways to come up with the right answer to an everyday math problem. Your goal: to come up with a wrong answer, maybe one that you thought was right!
                   </p>
           </div>
@@ -24,15 +24,15 @@ class ProductFeature extends Component {
             <div className='feature-images'>
               <center><img src={gift} width='80%' className="App-logo" alt="Tracking your progress" /></center>
             </div>
-            <h4>Win Prizes</h4>
+            <h4 className='feature-title'>Win Prizes</h4>
             <p>Win cool stuff for not only yourself, but also your school and community. When you win, you get to choose!
-                  </p>
+            </p>
           </div>
-          <div className='three-col-info-box'>
+          <div className='three-col-info-box feature-box'>
             <div className='feature-images'>
               <center><img src={progress} width='80%' className="App-logo" alt="Tracking your progress" /></center>
             </div>
-            <h4>Track Your Progress</h4>
+            <h4 className='feature-title'>Track Your Progress</h4>
             <p>We’ll help you keep track of what questions you’re good at, and which ones you may want to brush up on. See your own improvement over time!
                 </p>
           </div>
