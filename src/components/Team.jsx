@@ -54,7 +54,7 @@ class Team extends Component {
             <p className='feature-description'>
               <b>Favorite game show:</b>
               <br />
-              Kasou Taishou (A Japanese performance game show)
+              Kasou Taishou
               <br /><br />
               <b>Favorite mistake:</b>
               <br /> 
