@@ -33,6 +33,22 @@ class Team extends Component {
           </div>
           <div className='three-col-info-box'>
             <center>
+              <img src={daz} width='80%' className='profile-photo' alt='Daz C. Yang is a UI Designer & Front-End Developer at RightOn! Education.' />
+              <h4 className='three-col-title'>Daz C. Yang</h4>
+              <h6 className='job-title'>UI Designer / Front-End Developer</h6>
+            </center>
+            <p className='feature-description'>
+              <b>Favorite game show:</b>
+              <br />
+              Kasou Taishou
+              <br /><br />
+              <b>Favorite mistake:</b>
+              <br />
+              TBD
+            </p>
+          </div>
+          <div className='three-col-info-box'>
+            <center>
               <img className='profile-photo' src={edward} alt='' />
               <h4 className='three-col-title'>Edward Tan</h4>
               <h6 className='job-title'>Tech Lead</h6>
@@ -45,22 +61,6 @@ class Team extends Component {
               <b>Favorite mistake:</b>
               <br />
               When going to a shoes-off sushi restaurant, avoid holey socks, especially ones where your big toe might stick out.
-            </p>
-          </div>
-          <div className='three-col-info-box'>
-            <center>
-                <img src={daz} width='80%' className='profile-photo' alt='Daz C. Yang is a UI Designer & Front-End Developer at RightOn! Education.' />
-              <h4 className='three-col-title'>Daz C. Yang</h4>
-              <h6 className='job-title'>UI Designer / Front-End Developer</h6>
-            </center>
-            <p className='feature-description'>
-              <b>Favorite game show:</b>
-              <br />
-              Kasou Taishou
-              <br /><br />
-              <b>Favorite mistake:</b>
-              <br /> 
-              TBD
             </p>
           </div>
           <div className='three-col-info-box'>
