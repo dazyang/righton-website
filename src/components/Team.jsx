@@ -12,7 +12,7 @@ class Team extends Component {
       <section id='team' className='the-team'>
         <div className='section-intro'>
           <img src={hash} width='8%' alt='product feature' />
-          <h2>Meet The Team</h2>
+          <h2>Meet the Team</h2>
         </div>
         <div className='col-wrapper'>
           <div className='three-col-info-box'>

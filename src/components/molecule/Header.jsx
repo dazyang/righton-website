@@ -6,17 +6,17 @@ class Header extends Component {
         <header className='grid-12 grid-tl-12 grid-d-12 grid-m-12'>
           <div className='nav-options'>
             <a href='#team'>
-              <h5>About</h5>
+              <h4>About</h4>
             </a>
           </div>
           <div className='nav-options'>
             <a href='#features'>
-              <h5>Product</h5>
+              <h4>Product</h4>
             </a>
           </div>
           <div className='nav-options'>
             <a href=''>
-              <h5>Contact</h5>
+              <h4>Contact</h4>
             </a>
           </div>
         </header>
