@@ -16,9 +16,11 @@ class Team extends Component {
         </div>
         <div className='col-wrapper'>
           <div className='three-col-info-box'>
-            <center><img src={callan} className='profile-photo' alt='Callan Stretton is a full-stack developer at RightOn! Education.' /></center>
-            <h4 className='three-col-title'>Callan Stretton</h4>
-            <h6>Full-Stack Developer</h6>
+            <center>
+              <img src={callan} className='profile-photo' alt='Callan Stretton is a full-stack developer at RightOn! Education.' />
+              <h4 className='three-col-title'>Callan Stretton</h4>
+              <h6 className='job-title'>Full-Stack Developer</h6>
+            </center>
             <p className='feature-description'>
               <b>Favorite game show:</b>
               <br />
@@ -32,9 +34,9 @@ class Team extends Component {
           <div className='three-col-info-box'>
             <center>
               <img className='profile-photo' src={edward} alt='' />
+              <h4 className='three-col-title'>Edward Tan</h4>
+              <h6 className='job-title'>Tech Lead</h6>
             </center>
-            <h4 className='three-col-title'>Edward Tan</h4>
-            <h6>Tech Lead</h6>
             <p className='feature-description'>
               <b>Favorite game show:</b>
               <br />
@@ -48,9 +50,9 @@ class Team extends Component {
           <div className='three-col-info-box'>
             <center>
                 <img src={daz} width='80%' className='profile-photo' alt='Daz C. Yang is a UI Designer & Front-End Developer at RightOn! Education.' />
+              <h4 className='three-col-title'>Daz C. Yang</h4>
+              <h6 className='job-title'>UI Designer / Front-End Developer</h6>
             </center>
-            <h4 className='three-col-title'>Daz C. Yang</h4>
-            <h6>UI Designer / Front-End Developer</h6>
             <p className='feature-description'>
               <b>Favorite game show:</b>
               <br />
@@ -64,9 +66,9 @@ class Team extends Component {
           <div className='three-col-info-box'>
             <center>
               <img className='profile-photo' src={kai} alt='' />
+              <h4 className='three-col-title'>Kai King</h4>
+              <h6 className='job-title'>Math Educator</h6>
             </center>
-            <h4 className='three-col-title'>Kai King</h4>
-            <h6>Math Educator</h6>
             <p className='feature-description'>
               <b>Favorite game show:</b>
               <br />
@@ -80,9 +82,9 @@ class Team extends Component {
           <div className='three-col-info-box'>
             <center>
                 <img src={sinclair} className='profile-photo' alt='Sinclair Wu is the product lead at RightOn! Education.' />
+              <h4 className='three-col-title'>Sinclair Wu</h4>
+              <h6 className='job-title'>Product Lead</h6>
             </center>
-            <h4 className='three-col-title'>Sinclair Wu</h4>
-            <h6>Product Lead</h6>
             <p className='feature-description'>
               <b>Favorite game show:</b>
               <br /> 
