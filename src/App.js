@@ -1,9 +1,10 @@
 import React, { Component } from 'react';
-// import plus from './images/plus_icon.svg';
+import {HashRouter as Router, Route} from 'react-router-dom'
 
 import './App.css';
 import './rwdgrid.css';
 
+import AboutUs from './components/AboutUs'
 import LandingSection from './components/LandingSection'
 import ProblemSection from './components/ProblemSection'
 import ProductFeature from './components/ProductFeature'
@@ -13,15 +14,18 @@ import Footer from './components/Footer'
 class App extends Component {
   render() {
     return (
-      <div className="App">
-        <div className='container'>
-          <LandingSection />
-          <ProblemSection />
-          <ProductFeature />
-          <Team />
+      <Router>
+        <div className="App">
+          <div className='container'>
+            <Route exact path='/' component={LandingSection} />
+            <Route exact path='/' component={ProblemSection} />
+            <Route exact path='/' component={ProductFeature} />
+            <Route exact path='/' component={Team} />
+            <Route exact path='/about' component={AboutUs} />
+          </div>
+            <Footer />
         </div>
-          <Footer />
-      </div>
+      </Router>
     );
   }
 }
