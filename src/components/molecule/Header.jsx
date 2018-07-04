@@ -10,7 +10,7 @@ class Header extends Component {
             </a>
           </div>
           <div className='nav-options'>
-            <a href='#features'>
+            <a href=''>
               <h4>Product</h4>
             </a>
           </div>
