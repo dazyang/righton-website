@@ -37,6 +37,12 @@ header {
   padding: auto;
 }
 
+.about-landing {
+  margin: auto;
+  width: 500px;
+  padding: auto;
+}
+
 .product-image {
   width: 520px;
 }
@@ -68,13 +74,14 @@ h2 {
 
 h3 {
   font-weight: normal;
+  margin: 20px 0 3px 0;
 }
 
-h4 {
-}
+/* h4 {
+} */
 
-h5 {
-}
+/* h5 {
+} */
 
 h6 {
   text-align: center;
@@ -95,6 +102,13 @@ section {
 }
 
 /* Styling Sections */
+.about {
+  background-color: rgb(44, 40, 133);
+  background-image: url(./images/math-patterns-bk.svg);
+  background-size: cover;
+  color: white;
+}
+
 .landing {
   background-color: rgb(44, 40, 133);
   background-image: url(./images/math-patterns-bk.svg);
@@ -136,6 +150,52 @@ section {
 .feature-description {
   margin-top: 20px;
   text-align: center;
+}
+
+.card-wrapper{
+  width: 70%;
+  margin: 50px auto;
+  display: flex;
+  flex-flow: row wrap;
+  padding: 30px 50px;
+  box-shadow: 0px 3px 6px -1px rgba(0, 0, 0, 0.75);
+}
+
+.card-wrapper-normal{
+  width: 70%;
+  margin: auto;
+  padding: 0px 50px;
+}
+
+.about-icons {
+  width: 4%;
+  margin-right: 8px;
+}
+
+.mission-card {
+  position: relative;
+  margin-top: -50px;
+  display: block;
+  background-color: rgb(186, 44, 108);
+  color: white
+}
+
+.why-righton-wrapper {
+  margin: 18px 0;
+  display: flex;
+  /* flex-flow: row wrap; */
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.why-righton-list {
+  margin-left: 50px;
+  /* border: 1px solid black; */
+  width: 550px;
+}
+
+.temp {
+  width: 300px;
 }
 
 .col-wrapper {
