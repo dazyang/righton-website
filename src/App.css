@@ -155,23 +155,28 @@ section {
 }
 
 .card-wrapper{
-  /* border: 1px dashed lightgray; */
   width: 80%;
-  margin: auto;
+  margin: 30px auto;
   padding: 30px 50px;
   box-shadow: 0px 3px 6px -1px rgba(0, 0, 0, 0.75);
+  background: white;
 }
 
 .card-wrapper-normal{
   /* border: 1px dashed lightgray; */
   width: 65%;
   margin: auto;
-  padding: 30px 50px;
 }
 
-/* .aboutus-bk {
-  background-image: url();
-} */
+.advisor {
+  background-color: rgb(120, 43, 122);
+  color: white;
+}
+
+.about-bk {
+  background-image: url(./images/math-patterns-bk.svg);
+  
+}
 
 .about-icons {
   width: 4%;
@@ -179,7 +184,7 @@ section {
 }
 
 .mission-card {
-  margin-top: -50px;
+  margin: -50px auto 0px auto;
   background-color: rgb(186, 44, 108);
   color: white
 }
@@ -211,6 +216,12 @@ section {
   flex-flow: row wrap;
   justify-content: space-around;
   width: 100%;
+}
+
+.single-profile {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .one-col-box {
@@ -252,7 +263,7 @@ img {
   width: 150px;
   height: 150px;
   border-radius: 50%;
-  /* border: 1px solid black; */
+  border: 5px solid rgb(202, 45, 104);
 }
 
 .feature-images {
@@ -272,10 +283,6 @@ footer {
   text-align: center;
   color: white;
 }
-
-/* .footer-x {
-  margin-top: -92px;
-} */
 
 button {
   font-size: 14px;
