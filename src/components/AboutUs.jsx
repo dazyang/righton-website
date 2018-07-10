@@ -10,7 +10,7 @@ import Advisors from './molecule/Advisors'
 class AboutUs extends Component {
   render() {
     return (
-      <div>
+      <div className='about-bk'>
         <About />
         <Mission />
         <WhyRightOn />
@@ -22,18 +22,3 @@ class AboutUs extends Component {
 }
 
 export default AboutUs;
-
-{/* <div className='card-wrapper'>
-  <h2>Our Team</h2>
-  <div className='profile-card'>
-    <div className='profile-photo'>
-      
-    </div>
-    <div className='profile-info'>
-    
-    </div>
-    <div className='profile-description'>
-    
-    </div>
-  </div>
-</div> */}
