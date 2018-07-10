@@ -14,7 +14,7 @@ class About extends Component {
         <div className='about-blurb'>
           <center>
             <h1>About Us</h1>
-            <h3>Write a blurb about us</h3>
+            {/* <h3>Write a blurb about us</h3> */}
           </center>
         </div>
       </section>
