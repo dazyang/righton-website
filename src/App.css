@@ -38,9 +38,12 @@ header {
 }
 
 .about-landing {
-  margin: auto;
-  width: 500px;
-  padding: auto;
+  width: 400px;
+}
+
+.about-blurb {
+  width: 300px;
+  margin-top: 10px;
 }
 
 .product-image {
@@ -94,7 +97,7 @@ section {
   padding: 60px;
   display: flex;
   flex-flow: row wrap;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: center;
 }
 
