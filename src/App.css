@@ -97,7 +97,7 @@ section {
   padding: 60px;
   display: flex;
   flex-flow: row wrap;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
 }
 
@@ -112,6 +112,8 @@ section {
   background-image: url(./images/math-patterns-bk.svg);
   background-size: cover;
   color: white;
+  display: flex;
+  justify-content: space-around;
 }
 
 .landing {
