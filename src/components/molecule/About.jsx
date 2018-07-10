@@ -9,7 +9,7 @@ class About extends Component {
       <section id='about' className='about'>
         <Header />
         <div className="about-landing">
-         <img src={righton} alt="logo" width='100%' />
+         <a href='/'><img src={righton} alt="logo" width='100%' /></a>
         </div>
         <div className='about-blurb'>
           <center>
