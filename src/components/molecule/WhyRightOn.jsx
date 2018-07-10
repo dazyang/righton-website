@@ -35,7 +35,7 @@ function WhyRightOn() {
         <div className='why-righton-list'>
           <h3><b>Having fun with math</b></h3>
           <b><em>RightOn!</em></b> is not just any game, it’s a game show where you can play in teams and win prizes – real ones!
-              </div>
+        </div>
       </div>
     </div>
   )
