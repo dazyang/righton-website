@@ -11,17 +11,17 @@ function Advisors() {
       <div className='col-wrapper'>
         <div className='single-profile'>
           <img src={AyNur} className='profile-photo' alt='Callan Stretton is a full-stack developer at RightOn! Education.' />
-          <div>
-            <h3>Ay-Nur Najm</h3>
-            <h5>Harvard Graduate School of Education</h5>
-          </div>
+          <center>
+            <h2 className='h2-light'>Ay-Nur Najm</h2>
+            <h5>Math Educator</h5>
+          </center>
         </div>
         <div className='single-profile'>
           <img src={Michael} className='profile-photo' alt='Callan Stretton is a full-stack developer at RightOn! Education.' />
-          <div>
-            <h3>Michael Hwa</h3>
-            <h5>Former Managing Director at Accenture</h5>
-          </div>
+          <center>
+            <h2 className='h2-light'>Michael Hwa</h2>
+            <h5>Managing Director at Accenture</h5>
+          </center>
         </div>
       </div>
     </div>
