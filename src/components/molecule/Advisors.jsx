@@ -7,7 +7,7 @@ import Michael from '../../images/profile_michael.jpg'
 function Advisors() {
   return (
     <div className='card-wrapper advisor'>
-      <h2><img src={hash} className='about-icons' alt='product feature' />Our Advisor</h2>
+      <h2><img src={hash} className='about-icons' alt='product feature' />Advisors</h2>
       <div className='col-wrapper'>
         <div className='single-profile'>
           <img src={AyNur} className='profile-photo' alt='Callan Stretton is a full-stack developer at RightOn! Education.' />

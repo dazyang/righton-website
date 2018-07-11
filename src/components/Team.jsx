@@ -88,7 +88,7 @@ class Team extends Component {
             <p className='feature-description'>
               <b>Favorite game show:</b>
               <br /> 
-              Press Your Luck -- no whammies!
+              Press Your Luck
               <br /><br />
               <b>Favorite mistake:</b>
               <br /> 
