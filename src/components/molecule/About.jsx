@@ -1,10 +1,9 @@
-import React, { Component } from 'react'
+import React from 'react'
 import righton from '../../righton.svg'
 
 import Header from './Header'
 
-class About extends Component {
-  render() {
+function About () {
     return (
       <section id='about' className='about'>
         <Header />
@@ -19,7 +18,6 @@ class About extends Component {
         </div>
       </section>
     )
-  }
 }
 
 export default About;

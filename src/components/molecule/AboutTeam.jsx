@@ -1,4 +1,4 @@
-import React, { Component } from 'react'
+import React from 'react'
 
 import hash from '../../images/hash_icon.svg'
 import sinclair from '../../images/profile_sinclair.jpeg'
@@ -7,10 +7,10 @@ import daz from '../../images/profile_daz.jpg'
 import edward from '../../images/profile_edward.jpg'
 import kai from '../../images/profile_kai.jpg'
 
-function AboutTeam(){
+function AboutTeam (){
     return (
       <div className='card-wrapper'>
-        <h2><img src={hash} className='about-icons' alt='product feature' />Our Team</h2>
+        <h2><img src={hash} className='about-icons' alt='product feature' />Dev Team</h2>
         <div className='col-wrapper'>
           <center>
             <img src={callan} className='profile-photo' alt='Callan Stretton is a full-stack developer at RightOn! Education.' />

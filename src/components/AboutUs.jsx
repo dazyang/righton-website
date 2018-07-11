@@ -14,8 +14,8 @@ class AboutUs extends Component {
         <About />
         <Mission />
         <WhyRightOn />
-        <AboutTeam />
         <Advisors />
+        <AboutTeam />
       </div>
     )
   }
