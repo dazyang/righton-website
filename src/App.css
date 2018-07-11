@@ -330,6 +330,15 @@ button {
 
 
 @media screen and (max-width: 450px) {
+  .product-msg {
+    margin: 10px;
+  }
+  .medium-description {
+    font-size: 1em;
+  }
+  .one-col-box {
+    width: 100%;
+  }
   .about {
     padding: 20px;
   }
@@ -345,6 +354,10 @@ button {
   h3 {
     font-size: 1em;
     line-height: 1.5;
+  }
+
+  .mobile-landing {
+    font-size: 0.8em;
   }
 
   .list-image, .why-righton-list, .why-righton-wrapper {
