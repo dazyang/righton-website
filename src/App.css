@@ -120,7 +120,7 @@ section {
   margin: 10px 0;
 }
 
-/* Styling Sections */
+/* Home page Styling Sections */
 .about {
   background-color: rgb(44, 40, 133);
   background-image: url(./images/math-patterns-bk.svg);
@@ -157,7 +157,7 @@ section {
   font-size: 1.3em;
 }
 
-.medium-description {
+.problem-description {
   font-size: 1.3em;
   line-height: 1.5;
 }
@@ -173,6 +173,24 @@ section {
   text-align: center;
 }
 
+.profile-photo {
+  margin: 10px;
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  border: 5px solid rgb(202, 45, 104);
+}
+
+.feature-images {
+  margin: 10px auto;
+  width: 200px;
+  height: 200px;
+  /* border: 1px solid white; */
+}
+
+
+/* About Us page */
+
 .card-wrapper{
   width: 80%;
   margin: 30px auto;
@@ -187,13 +205,6 @@ section {
   margin: auto;
 }
 
-.advisor {
-  background-color: rgb(120, 43, 122);
-  background-image: url(./images/math-patterns-bk.svg);
-  background-blend-mode: overlay;
-  background-size: cover; 
-  color: white;
-}
 
 .patterned-background {
   background-image: url(./images/math-patterns-bk.svg);
@@ -238,18 +249,29 @@ section {
   width: 25%;
 }
 
-.col-wrapper {
-  display: flex;
-  flex-flow: row wrap;
-  justify-content: space-around;
-  width: 100%;
-}
-
 .single-profile {
   display: flex;
   flex-flow: row wrap;
   justify-content: center;
   align-items: center;
+}
+
+
+.advisor {
+  background-color: rgb(120, 43, 122);
+  background-image: url(./images/math-patterns-bk.svg);
+  background-blend-mode: overlay;
+  background-size: cover;
+  color: white;
+}
+
+/* Generic wrapper */
+
+.col-wrapper {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+  width: 100%;
 }
 
 .one-col-box {
@@ -288,20 +310,6 @@ img {
   margin: auto;
 }
 
-.profile-photo {
-  margin: 10px;
-  width: 150px;
-  height: 150px;
-  border-radius: 50%;
-  border: 5px solid rgb(202, 45, 104);
-}
-
-.feature-images {
-  margin: 10px auto;
-  width: 200px;
-  height: 200px;
-  /* border: 1px solid white; */
-}
 
 footer {
   display: flex;
@@ -328,8 +336,8 @@ button {
   background-color: rgb(89, 0, 131);
 }
 
-
-@media screen and (max-width: 450px) {
+/* Mobile */
+@media (min-width: 375px) {
   .product-msg {
     margin: 10px;
   }
