@@ -173,6 +173,22 @@ section {
   margin: auto;
 }
 
+@media screen and (max-width: 450px) {
+  section {
+    padding: 10px;
+  }
+  .card-wrapper, .mission-card{
+    width: 100%;
+    margin: 10px;
+    padding: 20px;
+  }
+
+  h3 {
+    font-size: 0.9em;
+  }
+}
+
+
 .advisor {
   background-color: rgb(120, 43, 122);
   color: white;
@@ -192,6 +208,11 @@ section {
   margin: -50px auto 0px auto;
   background-color: rgb(186, 44, 108);
   color: white
+}
+
+.mission-image {
+  margin: auto;
+  width: 75%;
 }
 
 .why-righton-wrapper {
