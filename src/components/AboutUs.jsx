@@ -10,12 +10,12 @@ import Advisors from './molecule/Advisors'
 class AboutUs extends Component {
   render() {
     return (
-      <div className='about-bk'>
+      <div className='patterned-background'>
         <About />
         <Mission />
         <WhyRightOn />
-        <Advisors />
         <AboutTeam />
+        <Advisors />
       </div>
     )
   }
