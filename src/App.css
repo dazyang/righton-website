@@ -313,13 +313,33 @@ img {
 
 footer {
   display: flex;
-  flex-direction: column;
-  justify-content: center;
+  flex-flow: wrap row;
+  justify-content: space-between;
   align-items: center;
   background-color: rgb(44, 40, 133);
-  padding: 20px;
-  text-align: center;
+  padding: 35px 70px;
+  text-align: left;
   color: white;
+}
+
+.footer-icon {
+  margin: 10px;
+  width: 20%;
+}
+
+.footer-message {
+  margin: 10px;
+  /* width: 300px; */
+}
+
+.copyright-msg {
+  margin: 15px 0;
+  font-size: 1em;
+  color: lightslategray;
+}
+
+.email-us:hover {
+  text-decoration: underline;
 }
 
 button {
