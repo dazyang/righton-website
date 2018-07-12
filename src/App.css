@@ -206,7 +206,7 @@ section {
 }
 
 
-.about-bk {
+.patterned-background {
   background-image: url(./images/math-patterns-bk.svg);
   
 }
@@ -265,7 +265,7 @@ section {
   color: white;
 }
 
-/* Generic wrapper */
+/* Common flex wrapper */
 
 .col-wrapper {
   display: flex;
@@ -337,7 +337,7 @@ button {
 }
 
 /* Mobile */
-@media (min-width: 375px) {
+@media screen and (max-width: 1233px) {
   .product-msg {
     margin: 10px;
   }
@@ -356,7 +356,7 @@ button {
   .card-wrapper,
   .card-wrapper-normal,
   .mission-card {
-    width: 90%;
+    width: 95%;
     padding: 20px;
   }
   h3 {
