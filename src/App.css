@@ -313,7 +313,7 @@ img {
 
 footer {
   display: flex;
-  flex-flow: wrap row;
+  flex-flow: row wrap;
   justify-content: space-between;
   align-items: center;
   background-color: rgb(44, 40, 133);
@@ -324,12 +324,11 @@ footer {
 
 .footer-icon {
   margin: 10px;
-  width: 20%;
+  width: 200px;
 }
 
 .footer-message {
   margin: 10px;
-  /* width: 300px; */
 }
 
 .copyright-msg {
@@ -407,5 +406,26 @@ button {
 
   .list-description {
     font-size: 0.85em;
+  }
+
+  footer {
+    flex-flow: row-reverse;
+    padding: 20px;
+  }
+
+  .footer-icon {
+    margin: 10px;
+    width: 200px;
+  }
+
+  .footer-message {
+    margin: 10px;
+    font-size: 0.8em;
+  }
+
+  .copyright-msg {
+    margin: 15px 0;
+    font-size: 0.7em;
+    color: lightslategray;
   }
 }

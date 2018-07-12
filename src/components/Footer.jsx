@@ -5,7 +5,6 @@ class Footer extends Component {
   render() {
     return (
       <footer>
-        {/* <a href="mailto:sincwu@gmail.com"><button className='sign-up'>Subscribe to our newsletter</button></a> */}
           <p className='copyright-msg'>2018 RightOn Education &copy; All Rights Reserved</p>
         <div className='footer-icon'>
           <img src={righton} width='100%' alt='RightOn logo' />
