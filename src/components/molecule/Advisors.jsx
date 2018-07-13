@@ -1,13 +1,13 @@
 import React from 'react'
 
-import hash from '../../images/hash_icon.svg'
+import xicon from '../../images/magenta_straight_X_icon.svg'
 import AyNur from '../../images/profile_ay-nur.jpg'
 import Michael from '../../images/profile_michael.jpg'
 
 function Advisors() {
   return (
     <div className='card-wrapper advisor'>
-      <h2><img src={hash} className='about-icons' alt='product feature' />Advisors</h2>
+      <h2><img src={xicon} className='about-icons' alt='product feature' />Advisors</h2>
       <div className='col-wrapper'>
         <div className='single-profile'>
           <img src={AyNur} className='profile-photo' alt='Callan Stretton is a full-stack developer at RightOn! Education.' />

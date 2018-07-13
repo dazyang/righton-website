@@ -1,6 +1,6 @@
 import React from 'react'
 
-import hash from '../../images/hash_icon.svg'
+import xicon from '../../images/magenta_straight_X_icon.svg'
 import sinclair from '../../images/profile_sinclair.jpeg'
 import callan from '../../images/profile_callan.png'
 import daz from '../../images/profile_daz.jpg'
@@ -10,7 +10,7 @@ import kai from '../../images/profile_kai.jpg'
 function AboutTeam (){
     return (
       <div className='card-wrapper'>
-        <h2><img src={hash} className='about-icons' alt='product feature' />Team</h2>
+        <h2><img src={xicon} className='about-icons' alt='product feature' />Team</h2>
         <div className='col-wrapper'>
           <center>
             <img src={callan} className='profile-photo' alt='Callan Stretton is a full-stack developer at RightOn! Education.' />

@@ -1,5 +1,6 @@
 import React, { Component } from 'react'
 import x_icon from '../images/x_icon.svg';
+import xicon from '../images/magenta_straight_X_icon.svg';
 import progress from '../images/progress_icon.svg';
 import gift from '../images/gift.svg';
 
@@ -8,8 +9,8 @@ class ProductFeature extends Component {
     return (
       <section id='features' className='product-features'>
         <div className='section-intro'>
-          <img src={x_icon} width='8%' alt='product feature' />
-          <h2>Product Features</h2>
+          <h2><img src={xicon} width='8%' className='about-icons' alt='product feature' />
+          Product Features</h2>
         </div>
         <div className='col-wrapper grid-d-8'>
           <div className='three-col-info-box'>
