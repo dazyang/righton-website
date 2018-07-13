@@ -312,22 +312,26 @@ img {
 
 
 footer {
-  display: flex;
-  flex-flow: row wrap;
-  justify-content: space-between;
-  align-items: center;
   background-color: rgb(44, 40, 133);
   padding: 35px 70px;
   text-align: left;
   color: white;
 }
 
-.footer-icon {
+.footer {
+  display: flex;
+  flex-flow: row wrap;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer-logo {
   margin: 10px;
   width: 200px;
 }
 
-.footer-message {
+.footer-msg {
   margin: 10px;
 }
 
@@ -408,18 +412,16 @@ button {
     font-size: 0.85em;
   }
 
-  footer {
-    flex-flow: row-reverse;
-    padding: 20px;
+  .footer {
+    flex-direction: column-reverse;
+    text-align: center;
   }
 
   .footer-icon {
-    margin: 10px;
     width: 200px;
   }
 
   .footer-message {
-    margin: 10px;
     font-size: 0.8em;
   }
 

@@ -1,23 +1,22 @@
 import React, { Component } from 'react'
+import { Link } from 'react-router-dom'
 
 class Header extends Component {
   render() {
     return (
         <header className='grid-12 grid-tl-12 grid-d-12 grid-m-12'>
           <div className='nav-options'>
-            <a href='#/about'>
-              <h4>About</h4>
-            </a>
+            <Link to='/about'><h4>About</h4></Link>
           </div>
           <div className='nav-options'>
-            <a href=''>
+            <Link to='#product'>
               <h4>Product</h4>
-            </a>
+            </Link>
           </div>
           <div className='nav-options'>
-            <a href=''>
+            <Link to='#footer'>
               <h4>Contact</h4>
-            </a>
+            </Link>
           </div>
         </header>
     )
