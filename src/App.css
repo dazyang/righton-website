@@ -313,7 +313,6 @@ img {
 
 footer {
   background-color: rgb(44, 40, 133);
-  padding: 35px 70px;
   text-align: left;
   color: white;
 }
@@ -324,6 +323,7 @@ footer {
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
+  padding: 35px 70px;
 }
 
 .footer-logo {
@@ -415,19 +415,15 @@ button {
   .footer {
     flex-direction: column-reverse;
     text-align: center;
+    padding: 10px
   }
 
-  .footer-icon {
-    width: 200px;
-  }
-
-  .footer-message {
-    font-size: 0.8em;
+  .footer-msg {
+    font-size: 0.95em;
   }
 
   .copyright-msg {
-    margin: 15px 0;
-    font-size: 0.7em;
+    font-size: 0.75em;
     color: lightslategray;
   }
 }
