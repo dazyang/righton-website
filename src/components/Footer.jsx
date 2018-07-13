@@ -1,5 +1,6 @@
 import React, { Component } from 'react'
 import righton from '../righton.svg'
+// import envelope from '../images/envelope.svg'
 
 class Footer extends Component {
   render() {

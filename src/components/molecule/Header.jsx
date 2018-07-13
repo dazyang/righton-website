@@ -9,12 +9,12 @@ class Header extends Component {
             <Link to='/about'><h4>About</h4></Link>
           </div>
           <div className='nav-options'>
-            <Link to='#product'>
+          <Link to={{hash: '#features'}}>
               <h4>Product</h4>
             </Link>
           </div>
           <div className='nav-options'>
-            <Link to='#footer'>
+            <Link to={{hash: '#footer'}}>
               <h4>Contact</h4>
             </Link>
           </div>
