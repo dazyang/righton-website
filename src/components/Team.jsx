@@ -42,7 +42,7 @@ class Team extends Component {
               <br />
               Kasou Taishou
               <br /><br />
-              <b>Favorite mistake:</b>
+              <b>Favorite mistake: I love learning new languages; making mistakes is a crucial part of becoming a fluent speaker. The mistakes I made up to this date not only broadened my experience with the language I'm learning, it sometimes turns into funny anectodes that I can share with other people for laughs.</b>
               <br />
               TBD
             </p>
