@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import { Link } from 'react-router-hash-link'
+import { HashLink as Link } from 'react-router-hash-link'
 
 class Header extends Component {
   render() {
@@ -9,12 +9,12 @@ class Header extends Component {
             <Link to='/about'><h4>About</h4></Link>
           </div>
           <div className='nav-options'>
-          <Link to={{hash: '#features'}}>
+          <Link to='/#features'>
               <h4>Product</h4>
             </Link>
           </div>
           <div className='nav-options'>
-            <Link to={{hash: '#footer'}}>
+            <Link to='/#footer'>
               <h4>Contact</h4>
             </Link>
           </div>
