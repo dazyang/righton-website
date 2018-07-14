@@ -44,7 +44,7 @@ class Team extends Component {
               <br /><br />
               <b>Favorite mistake: </b>
               <br />
-               I love learning new languages, and making mistakes with idioms is a key part of becoming a fluent speaker. I find it funny that, when an alarm clock “goes off,” that means it turns on!”
+                I love learning new languages, and making mistakes with idioms is a key part of becoming more fluent. I find it funny that, when an alarm clock “goes off,” that means it turns on!
             </p>
           </div>
           <div className='three-col-info-box'>
@@ -76,7 +76,8 @@ class Team extends Component {
               <br /><br />
               <b>Favorite mistake:</b>
               <br />
-              When I get a parking ticket and happen to return in time to plead with the ticketing officer... They often tell me “everyone is usually so angry,” and because of my kindness, they rip it up!
+              When I get a parking ticket and happen to return in time to plead with the ticketing officer... They often tell me: “Everyone is usually so angry!” but because of my kindness, they rip it up!
+
             </p>
           </div>
           <div className='three-col-info-box'>
@@ -92,7 +93,7 @@ class Team extends Component {
               <br /><br />
               <b>Favorite mistake:</b>
               <br /> 
-              Didn’t like edamame (Japanese soybeans) the first time I had them at a restaurant in San Francisco, but then realized I was eating out of the discard pile...
+              Didn’t like edamame the first time I had them at a Japanese restaurant, but then realized I was eating out of the discard pile...
             </p>
           </div>
         </div>  
