@@ -44,7 +44,7 @@ class Team extends Component {
               <br /><br />
               <b>Favorite mistake: </b>
               <br />
-              I love learning new languages; making mistakes is a crucial part of becoming a fluent speaker. The mistakes I made up to this date, not only broadened my experience with the language I'm learning, it sometimes turns into funny anectodes that I can share with other people for laughs!
+               I love learning new languages, and making mistakes with idioms is a key part of becoming a fluent speaker. I find it funny that, when an alarm clock “goes off,” that means it turns on!”
             </p>
           </div>
           <div className='three-col-info-box'>
