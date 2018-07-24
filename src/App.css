@@ -181,6 +181,14 @@ section {
   border: 5px solid rgb(202, 45, 104);
 }
 
+.profile-photo-advisors {
+  margin: 10px;
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  border: 5px solid rgb(202, 45, 104);
+}
+
 .feature-images {
   margin: 10px auto;
   width: 200px;

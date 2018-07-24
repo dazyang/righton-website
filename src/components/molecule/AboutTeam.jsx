@@ -1,7 +1,7 @@
 import React from 'react'
 
 import xicon from '../../images/magenta_straight_X_icon.svg'
-import sinclair from '../../images/profile_sinclair.jpeg'
+import sinclair from '../../images/profile_sinclair.jpg'
 import callan from '../../images/profile_callan.png'
 import daz from '../../images/profile_daz.jpg'
 import edward from '../../images/profile_edward.jpg'
