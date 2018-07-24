@@ -18,17 +18,17 @@ function Advisors() {
           </center>
         </div>
         <div className='single-profile'>
-          <img src={Michael} className='profile-photo-advisors' alt='' />
-          <center>
-            <h2 className='h2-light'>Michael Hwa</h2>
-            <h5>Managing Director, Accenture</h5>
-          </center>
-        </div>
-        <div className='single-profile'>
           <img src={Ben} className='profile-photo-advisors' alt='' />
           <center>
             <h2 className='h2-light'>Ben Woodford</h2>
             <h5>Math Education Researcher</h5>
+          </center>
+        </div>
+        <div className='single-profile'>
+          <img src={Michael} className='profile-photo-advisors' alt='' />
+          <center>
+            <h2 className='h2-light'>Michael Hwa</h2>
+            <h5>Managing Director, Accenture</h5>
           </center>
         </div>
       </div>
