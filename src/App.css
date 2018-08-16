@@ -182,9 +182,9 @@ section {
 }
 
 .profile-photo-advisors {
-  margin: 10px;
-  width: 120px;
-  height: 120px;
+  margin: 10px 5px;
+  width: 100px;
+  height: 100px;
   border-radius: 50%;
   border: 5px solid rgb(202, 45, 104);
 }
@@ -260,8 +260,9 @@ section {
 .single-profile {
   display: flex;
   flex-flow: row wrap;
-  justify-content: center;
+  /* justify-content: center; */
   align-items: center;
+  width: 300px;
 }
 
 
@@ -279,6 +280,7 @@ section {
   display: flex;
   flex-flow: row wrap;
   justify-content: space-around;
+  align-items: flex-start;
   width: 100%;
 }
 
