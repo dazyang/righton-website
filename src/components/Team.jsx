@@ -11,8 +11,7 @@ class Team extends Component {
     return (
       <section id='team' className='the-team'>
         <div className='section-intro'>
-          <h2><img src={hash} width='8%' className='about-icons' alt='product feature' />
-          Meet the Team</h2>
+          <h2><img src={hash} width='8%' className='about-icons' alt='product feature' />Meet the Team</h2>
         </div>
         <div className='col-wrapper'>
           <div className='three-col-info-box'>
