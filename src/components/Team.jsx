@@ -17,18 +17,18 @@ class Team extends Component {
         <div className='col-wrapper'>
           <div className='three-col-info-box'>
             <center>
-              <img src={callan} className='profile-photo' alt='Callan Stretton is a full-stack developer at RightOn! Education.' />
-              <h4 className='three-col-title'>Callan Stretton</h4>
-              <h6 className='job-title'>Full-Stack Developer</h6>
+              <img src={sinclair} className='profile-photo' alt='Sinclair Wu is the product lead at RightOn! Education.' />
+              <h4 className='three-col-title'>Sinclair Wu</h4>
+              <h6 className='job-title'>Product Lead</h6>
             </center>
             <p className='feature-description'>
               <b>Favorite game show:</b>
               <br />
-              The Chase
+              Press Your Luck
               <br /><br />
               <b>Favorite mistake:</b>
-              <br /> 
-              I make mistakes all the time when programming, and that’s great! I get to learn from my mistakes and understand why I should do things a different way. It’s the best way to learn, in my opinion.
+              <br />
+              Didn’t like edamame the first time I had them at a Japanese restaurant, but then realized I was eating out of the discard pile...
             </p>
           </div>
           <div className='three-col-info-box'>
@@ -45,6 +45,22 @@ class Team extends Component {
               <b>Favorite mistake: </b>
               <br />
                 I love learning new languages, and making mistakes with idioms is a key part of becoming more fluent. I find it funny that, when an alarm clock “goes off,” that means it turns on!
+            </p>
+          </div>
+          <div className='three-col-info-box'>
+            <center>
+              <img src={callan} className='profile-photo' alt='Callan Stretton is a full-stack developer at RightOn! Education.' />
+              <h4 className='three-col-title'>Callan Stretton</h4>
+              <h6 className='job-title'>Full-Stack Developer</h6>
+            </center>
+            <p className='feature-description'>
+              <b>Favorite game show:</b>
+              <br />
+              The Chase
+              <br /><br />
+              <b>Favorite mistake:</b>
+              <br />
+              I make mistakes all the time when programming, and that’s great! I get to learn from my mistakes and understand why I should do things a different way. It’s the best way to learn, in my opinion.
             </p>
           </div>
           <div className='three-col-info-box'>
@@ -78,22 +94,6 @@ class Team extends Component {
               <br />
               When I get a parking ticket and happen to return in time to plead with the ticketing officer... They often tell me: “Everyone is usually so angry!” but because of my kindness, they rip it up!
 
-            </p>
-          </div>
-          <div className='three-col-info-box'>
-            <center>
-                <img src={sinclair} className='profile-photo' alt='Sinclair Wu is the product lead at RightOn! Education.' />
-              <h4 className='three-col-title'>Sinclair Wu</h4>
-              <h6 className='job-title'>Product Lead</h6>
-            </center>
-            <p className='feature-description'>
-              <b>Favorite game show:</b>
-              <br /> 
-              Press Your Luck
-              <br /><br />
-              <b>Favorite mistake:</b>
-              <br /> 
-              Didn’t like edamame the first time I had them at a Japanese restaurant, but then realized I was eating out of the discard pile...
             </p>
           </div>
         </div>  
