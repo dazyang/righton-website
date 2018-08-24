@@ -239,7 +239,7 @@ Github URI: https://github.com/gsvineeth/rwdgrid/
 
 @media only screen and (min-width: 1200px) {
     .container {
-        /* max-width:1180px; */
+        max-width: 1560px;
         margin:0 auto;
     }
     .container-fluid {

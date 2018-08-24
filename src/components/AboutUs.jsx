@@ -1,5 +1,4 @@
 import React, { Component } from 'react'
-import Card from '@material-ui/core/Card'
 
 import About from './molecule/About'
 import Mission from './molecule/Mission'

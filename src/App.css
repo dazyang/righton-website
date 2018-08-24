@@ -22,7 +22,6 @@
 }
 
 
-
 header {
   display: flex;
 }
@@ -363,7 +362,7 @@ button {
 }
 
 /* Mobile */
-@media screen and (max-width: 1233px) {
+@media screen and (max-width: 1200px) {
 
   .product-msg {
     margin: 10px;
