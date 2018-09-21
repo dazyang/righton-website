@@ -1,4 +1,5 @@
 import React, { Component } from 'react'
+
 import hash from '../images/hash_icon.svg'
 import sinclair from '../images/profile_sinclair.jpg'
 import callan from '../images/profile_callan.png'
@@ -9,7 +10,7 @@ import kai from '../images/profile_kai.jpg'
 class Team extends Component {
   render() {
     return (
-      <section id='team' className='the-team'>
+      <section id='team' className='card-wrapper'>
         <div className='section-intro'>
           <h2><img src={hash} width='8%' className='about-icons' alt='product feature' />Meet the Team</h2>
         </div>
@@ -92,7 +93,6 @@ class Team extends Component {
               <b>Favorite mistake:</b>
               <br />
               When I get a parking ticket and happen to return in time to plead with the ticketing officer... They often tell me: “Everyone is usually so angry!” but because of my kindness, they rip it up!
-
             </p>
           </div>
         </div>  

@@ -98,8 +98,8 @@ h6 {
 section {
   padding: 60px;
   display: flex;
-  flex-flow: row wrap;
-  justify-content: space-evenly;
+  flex-flow: row;
+  /* justify-content: space-evenly; */
   align-items: center;
 }
 
@@ -120,27 +120,25 @@ section {
 
 .landing {
   background-color: rgb(50, 40, 89);
-  background-image: url(./images/math-patterns-bk.svg);
   background-size: cover;
   color: white;
   display: flex;
+  flex-flow: row wrap;
   justify-content: space-around;
 }
 
 .problem {
-  background-image: url(./images/sinewave-pattern.svg);
+  margin: auto;
+  width: 90%;
+  flex-direction: row-reverse;
+  /* background-image: url(./images/sinewave-pattern.svg); */
   background-size: contain;
 }
 
 .product-features {
   background-color:  rgb(50, 40, 89);
-  background-image: url(./images/math-patterns-bk.svg);
   background-size: cover;
   color: white;
-}
-
-.the-team {
-  justify-content: flex-start;
 }
 
 .product-msg {
@@ -148,9 +146,12 @@ section {
   font-size: 1.3em;
 }
 
-.problem-description {
-  font-size: 1.3em;
-  line-height: 1.5;
+.problem-card {
+  width: 80%;
+  padding: 30px;
+  margin: auto -100px 0px auto;
+  box-shadow: 0px 4px 6px -1px rgba(0, 0, 0, 0.35);
+  background: white;
 }
 
 .feature-title {
@@ -191,7 +192,9 @@ section {
 /* About Us page */
 
 .card-wrapper{
-  width: 80%;
+  flex-flow: row wrap;
+  justify-content: flex-start;
+  width: 90%;
   margin: 30px auto;
   padding: 30px 50px;
   box-shadow: 0px 4px 6px -1px rgba(0, 0, 0, 0.35);
@@ -200,14 +203,12 @@ section {
 
 .card-wrapper-normal{
   /* border: 1px dashed lightgray; */
-  width: 65%;
+  width: 80%;
   margin: auto;
 }
 
-
 .patterned-background {
   background-image: url(./images/math-patterns-bk.svg);
-  
 }
 
 .about-icons {
@@ -216,14 +217,22 @@ section {
 }
 
 .mission-card {
-  margin: -50px auto 0px auto;
+  width: 80%;
+  padding: 35px;
+  margin: 0px auto 0px -100px;
+  box-shadow: 0px 4px 6px -1px rgba(0, 0, 0, 0.35);
   background-color: rgb(186, 44, 108);
   color: white
 }
 
 .mission-image {
   margin: auto;
-  width: 65%;
+}
+
+.mission-section {
+  margin: auto;
+  align-items: flex-end;
+  width: 90%;
 }
 
 .why-righton-wrapper {
@@ -281,7 +290,7 @@ section {
 
 .three-col-info-box {
   /* border: 1px solid black; */
-  width: 225px;
+  width: 215px;
   padding: 10px;
   margin: 0 10px;
 }
