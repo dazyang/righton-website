@@ -104,7 +104,7 @@ section {
 }
 
 .section-intro {
-  width: 400px;
+  /* width: 400px; */
   margin: 10px 0;
 }
 
@@ -136,6 +136,7 @@ section {
 }
 
 .product-features {
+  justify-content: space-evenly;
   background-color:  rgb(50, 40, 89);
   background-size: cover;
   color: white;
@@ -203,7 +204,7 @@ section {
 
 .card-wrapper-normal{
   /* border: 1px dashed lightgray; */
-  width: 80%;
+  width: 75%;
   margin: auto;
 }
 
