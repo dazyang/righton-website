@@ -99,7 +99,6 @@ section {
   padding: 60px;
   display: flex;
   flex-flow: row;
-  /* justify-content: space-evenly; */
   align-items: center;
 }
 
@@ -131,8 +130,6 @@ section {
   margin: auto;
   width: 90%;
   flex-direction: row-reverse;
-  /* background-image: url(./images/sinewave-pattern.svg); */
-  background-size: contain;
 }
 
 .product-features {
@@ -148,9 +145,14 @@ section {
 }
 
 .problem-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  position: relative;
+  height: 220px;
   width: 80%;
-  padding: 30px;
-  margin: auto -100px 0px auto;
+  padding: 20px;
+  margin: 0px auto 0px -50px;
   box-shadow: 0px 4px 6px -1px rgba(0, 0, 0, 0.35);
   background: white;
 }
@@ -191,7 +193,6 @@ section {
 
 
 /* About Us page */
-
 .card-wrapper{
   flex-flow: row wrap;
   justify-content: flex-start;
@@ -218,12 +219,17 @@ section {
 }
 
 .mission-card {
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  position: relative;
   width: 80%;
-  padding: 35px;
-  margin: 0px auto 0px -100px;
+  height: 220px;
+  padding: 20px;
+  margin: 0px -50px 0px auto;
   box-shadow: 0px 4px 6px -1px rgba(0, 0, 0, 0.35);
   background-color: rgb(186, 44, 108);
-  color: white
 }
 
 .mission-image {
@@ -232,7 +238,6 @@ section {
 
 .mission-section {
   margin: auto;
-  align-items: flex-end;
   width: 90%;
 }
 
@@ -372,6 +377,10 @@ button {
 
 /* Mobile */
 @media screen and (max-width: 1200px) {
+
+  .product-features {
+    flex-flow: row wrap;
+  }
 
   .product-msg {
     margin: 10px;

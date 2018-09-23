@@ -18,8 +18,7 @@ class ProductFeature extends Component {
               <center><img src={win_mistake} width='100%' className="App-logo" alt="Icons made by Freepik from Flaticon is licensed by CC 3.0 BY" /></center>
             </div>
             <h4 className='feature-title'>Have Fun with Wrong Answers</h4>
-            <p>Yep, that’s right! We show you one or more ways to come up with the right answer to an everyday math problem. Your goal: to come up with a wrong answer, maybe one that you thought was right!
-                  </p>
+            <p>Yep, that’s right! We show you one or more ways to come up with the right answer to an everyday math problem. Your goal: to come up with a wrong answer, maybe one that you thought was right!</p>
           </div>
           <div className='three-col-info-box'>
             <div className='feature-images'>
