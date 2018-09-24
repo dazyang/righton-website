@@ -1,9 +1,9 @@
 import React from 'react'
 
 import hash from '../../images/hash_icon.svg'
-import AyNur from '../../images/profile_ay-nur.jpeg'
+import AyNur from '../../images/profile_ay-nur.jpg'
 import Michael from '../../images/profile_michael.jpg'
-import Ben from '../../images/profile_ben.png'
+import Ben from '../../images/profile_ben.jpg'
 
 function Advisors() {
   return (

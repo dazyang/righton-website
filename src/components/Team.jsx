@@ -2,7 +2,7 @@ import React, { Component } from 'react'
 
 import hash from '../images/hash_icon.svg'
 import sinclair from '../images/profile_sinclair.jpg'
-import callan from '../images/profile_callan.png'
+import callan from '../images/profile_callan.jpg'
 import daz from '../images/profile_daz.jpg'
 import edward from '../images/profile_edward.jpg'
 import kai from '../images/profile_kai.jpg'
