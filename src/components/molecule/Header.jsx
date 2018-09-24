@@ -12,7 +12,7 @@ class Header extends Component {
           <a href='#mission'><h4>Mission</h4></a>
         </div>
         <div className='nav-options'>
-          <a href='#feature'><h4>Product</h4></a>
+          <a href='#features'><h4>Product</h4></a>
         </div>
         <div className='nav-options'>
             <a href='#team'><h4>Team</h4></a>
