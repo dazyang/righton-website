@@ -1,14 +1,10 @@
 import React, { Component } from 'react'
 
 import hash from '../images/hash_icon.svg'
-import sinclair from '../images/profile_sinclair.jpg'
-import callan from '../images/profile_callan.jpg'
-import daz from '../images/profile_daz.jpg'
-import edward from '../images/profile_edward.jpg'
-import kai from '../images/profile_kai.jpg'
 
 class Team extends Component {
   render() {
+    const {sinclair, daz, callan, edward, kai} = this.props
     return (
       <section id='team' className='card-wrapper'>
         <div className='section-intro'>

@@ -14,6 +14,15 @@ import Advisors from './components/molecule/Advisors'
 import Footer from './components/Footer'
 
 class App extends Component {
+  static defaultProps = {
+    img: [{
+      sinclair: "/images/profile_sinclair.jpg",
+      daz: "/images/profile_daz.jpg",
+      callan: "/images/profile_callan.jpg",
+      kai: "/images/profile_kai.jpg",
+      edward: "/images/profile_edward.jpg"
+    }]
+  }
   render() {
     return (
         <div className="App">
@@ -23,7 +32,10 @@ class App extends Component {
             <ProblemSection />           
             <WhyRightOn />
             <ProductFeature />
-            <Team />
+            {this.props.img.map((photo, index) => (
+              <Team key={index} {...photo} />
+            ))}
+            
             <Advisors />
           </div>
             <Footer />
