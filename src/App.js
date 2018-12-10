@@ -18,7 +18,6 @@ class App extends Component {
     img: [{
       sinclair: "/images/profile_sinclair.jpg",
       daz: "/images/profile_daz.jpg",
-      callan: "/images/profile_callan.jpg",
       kai: "/images/profile_kai.jpg",
       edward: "/images/profile_edward.jpg"
     }]

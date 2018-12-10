@@ -4,7 +4,7 @@ import hash from '../images/hash_icon.svg'
 
 class Team extends Component {
   render() {
-    const {sinclair, daz, callan, edward, kai} = this.props
+    const {sinclair, daz, edward, kai} = this.props
     return (
       <section id='team' className='card-wrapper'>
         <div className='section-intro'>
@@ -13,25 +13,9 @@ class Team extends Component {
         <div className='col-wrapper'>
           <div className='three-col-info-box'>
             <center>
-              <img src={callan} className='profile-photo' alt='Callan Stretton is a full-stack developer at RightOn! Education.' />
-              <h4 className='three-col-title'>Callan Stretton</h4>
-              <h6 className='job-title'>Full-Stack Developer</h6>
-            </center>
-            <p className='feature-description'>
-              <b>Favorite game show:</b>
-              <br />
-              The Chase
-              <br /><br />
-              <b>Favorite mistake:</b>
-              <br />
-              I make mistakes all the time when programming, and that’s great! I get to learn from my mistakes and understand why I should do things a different way. It’s the best way to learn, in my opinion.
-            </p>
-          </div>
-          <div className='three-col-info-box'>
-            <center>
               <img src={daz} width='80%' className='profile-photo' alt='Daz C. Yang is a UI Designer & Front-End Developer at RightOn! Education.' />
               <h4 className='three-col-title'>Daz C. Yang</h4>
-              <h6 className='job-title'>UI Designer / Front-End Developer</h6>
+              <h6 className='job-title'>Full-Stack Web Developer</h6>
             </center>
             <p className='feature-description'>
               <b>Favorite game show:</b>
